@@ -5,7 +5,6 @@ This is the official repository for DeepBinDiff, which is a fine-grained binary 
 ### Paper
 Please consider citing our paper if you find the code useful.
 
-
 Yue Duan, Xuezixiang Li, Jinghan Wang, and Heng Yin, "DeepBinDiff: Learning Program-Wide Code Representations for Binary Diffing", NDSS'2020
 
 
@@ -52,6 +51,3 @@ The current version is using CPU only.
 4. NLP pre-training?
 
 The current version uses an on-the-fly training process, meaning we only use the two input binaries for NLP training. Therefore, we don't need any pre-trained model. This will eliminate the OOV problem but will slow down the process a bit.
-
-
-
